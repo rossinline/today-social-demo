@@ -6,7 +6,7 @@ const ProfileWidget = () => {
     <div className="bg-white/30 rounded-widget shadow-lg ring-1 ring-black/5 p-4 flex flex-col items-center space-y-4 h-full">
       {/* Profile Picture */}
       <img
-        src="./public/images/profile-photo.jpg"
+        src="/images/profile-photo.jpg"
         alt="Profile"
         className="w-32 h-32 rounded-full object-cover border-4 border-gray1"
       />

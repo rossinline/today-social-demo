@@ -29,30 +29,30 @@ const Home = () => {
 
   // Media setup 1
   const videos: MediaType[] = [
-    "./public/videos/cliff-video.mp4",
-    "./public/videos/butterfly-video.mp4",
-    "./public/videos/sky-video.mp4"
+    "/videos/cliff-video.mp4",
+    "/videos/butterfly-video.mp4",
+    "/videos/sky-video.mp4"
   ];
 
   const photos: MediaType[] = [
-    "./public/images/geese.jpg",
-    "./public/images/road2.jpg",
-    "./public/images/cat.jpg",
-    "./public/images/vw-bus.jpg",
-    "./public/images/sunset.jpg",
-    "./public/images/trees.jpg"
+    "/images/geese.jpg",
+    "/images/road2.jpg",
+    "/images/cat.jpg",
+    "/images/vw-bus.jpg",
+    "/images/sunset.jpg",
+    "/images/trees.jpg"
   ];
 
   // Media setup 2
   const videos1: MediaType[] = [
-    "./public/videos/chicken-video.mp4",
+    "/videos/chicken-video.mp4",
   ];
 
   const photos1: MediaType[] = [
-    "./public/images/forest.jpg",
-    "./public/images/chicken.jpg",
-    "./public/images/iguana.jpg",
-    "./public/images/treetops.jpg"
+    "/images/forest.jpg",
+    "/images/chicken.jpg",
+    "/images/iguana.jpg",
+    "/images/treetops.jpg"
   ];
 
 
