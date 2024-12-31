@@ -2,6 +2,7 @@ import { BookOpen, FileQuestion } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useColor } from "../contexts/ColorContext";
+import Footer from "./Footer";
 
 const TodayForm = () => {
 
@@ -51,9 +52,9 @@ const TodayForm = () => {
   const selectedColor = color ? colorGradients[color as keyof typeof colorGradients] : "from-slate-50 to-gray-500";
 
   return (
-    <div className={`h-screen px-20 flex justify-center items-center flex-col space-y-6 bg-gradient-to-br ${selectedColor}`}>
+    <div className={`min-h-screen p-4 lg:px-20 flex justify-center items-center flex-col space-y-6 bg-gradient-to-br ${selectedColor}`}>
       {/* Logo */}
-      <div className="w-20 h-20 hover:cursor-pointer bg-white/30 rounded-widget ring-1 ring-black/5 mb-2 flex items-center justify-center shadow-lg">
+      <div className="w-20 h-20  hover:cursor-pointer bg-white/30 rounded-widget ring-1 ring-black/5 mb-2 flex items-center justify-center shadow-lg">
         <span className="text-gray1 font-bold text-xl">Today</span>
       </div>
 
@@ -221,6 +222,7 @@ const TodayForm = () => {
         </form>
       </div>
       </div>
+      <Footer />
     </div>
   );
 };
