@@ -1,4 +1,4 @@
-import { GalleryVerticalEnd, HeartHandshake, Images, Lightbulb, MapPin, RefreshCw, Star } from "lucide-react";
+import { GalleryVerticalEnd, HeartHandshake, Images, Lightbulb, MapPin, Star } from "lucide-react";
 
 const HomeHeader = ({ onFilterChange }: { onFilterChange: (filter: string) => void }) => {
   return (
