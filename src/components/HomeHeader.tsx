@@ -56,18 +56,6 @@ const HomeHeader = ({ onFilterChange }: { onFilterChange: (filter: string) => vo
           <MapPin size={20} className="text-gray1 group-hover:text-white transition duration-300 lg:ml-2" />
         </button>
       </div>
-
-      {/* Refresh button */}
-      <div className="flex-shrink-0 h-12 w-12 items-center justify-center rounded-xl border border-gray1 hidden lg:flex">
-        <button
-          onClick={() => window.location.reload()} // Trigger page refresh
-          aria-label="Refresh Page Button"
-          title="Refresh Page"
-          className="p-2 bg-transparent text-gray1 transition group"
-        >
-          <RefreshCw size={24} className="group-hover:animate-spin" />
-        </button>
-      </div>
     </div>
   );
 };
