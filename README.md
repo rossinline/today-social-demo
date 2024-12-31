@@ -1,7 +1,7 @@
 # Today Social Media: Front-end Demo
 
 <p align="center">
-  <img width="30%" src="https://github.com/rossinline/today-social-demo/blob/main/src/assets/images/Today.png">
+  <img width="30%" src="https://github.com/rossinline/today-social-demo/blob/main/public/images/Today.png">
 </p>
 
 <div align="center">
@@ -16,3 +16,5 @@ A demo website for a social media concept called Today Social, A positive social
 
 > [!NOTE]
 > This project is open source, and with enough positive feedback, may be developed into a fullstack web system (implimenting backend, database and API technologies).
+
+This Website is fully repsponsive, **compatible with Mobiles, Tablets and Desktop screens**
