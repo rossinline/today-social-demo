@@ -9,14 +9,12 @@ const App = () => {
   return (
     <ColorProvider>
     <BrowserRouter basename="/today-social-demo">
-    <Router>
       <Routes>
         <Route path="/" element={<WelcomePage />} />
         <Route path="/form" element={<TodayForm />} />
         <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
-    </Router>
     </BrowserRouter>
     </ColorProvider>
   );
