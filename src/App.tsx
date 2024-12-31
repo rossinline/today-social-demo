@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
 import WelcomePage from "./components/WelcomePage";
 import TodayForm from "./components/TodayForm";
 import Home from "./components/Home"
@@ -8,6 +8,7 @@ import { ColorProvider } from "./contexts/ColorContext";
 const App = () => {
   return (
     <ColorProvider>
+    <BrowserRouter basename="/today-social-demo">
     <Router>
       <Routes>
         <Route path="/" element={<WelcomePage />} />
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/profile" element={<Profile />} />
       </Routes>
     </Router>
+    </BrowserRouter>
     </ColorProvider>
   );
 };
