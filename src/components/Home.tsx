@@ -29,30 +29,30 @@ const Home = () => {
 
   // Media setup 1
   const videos: MediaType[] = [
-    "./src/assets/videos/cliff-video.mp4",
-    "./src/assets/videos/butterfly-video.mp4",
-    "./src/assets/videos/sky-video.mp4"
+    "./public/videos/cliff-video.mp4",
+    "./public/videos/butterfly-video.mp4",
+    "./public/videos/sky-video.mp4"
   ];
 
   const photos: MediaType[] = [
-    "/src/assets/images/geese.jpg",
-    "/src/assets/images/road2.jpg",
-    "/src/assets/images/cat.jpg",
-    "/src/assets/images/vw-bus.jpg",
-    "/src/assets/images/sunset.jpg",
-    "/src/assets/images/trees.jpg"
+    "./public/images/geese.jpg",
+    "./public/images/road2.jpg",
+    "./public/images/cat.jpg",
+    "./public/images/vw-bus.jpg",
+    "./public/images/sunset.jpg",
+    "./public/images/trees.jpg"
   ];
 
   // Media setup 2
   const videos1: MediaType[] = [
-    "./src/assets/videos/chicken-video.mp4",
+    "./public/videos/chicken-video.mp4",
   ];
 
   const photos1: MediaType[] = [
-    "./src/assets/images/forest.jpg",
-    "/src/assets/images/chicken.jpg",
-    "/src/assets/images/iguana.jpg",
-    "/src/assets/images/treetops.jpg"
+    "./public/images/forest.jpg",
+    "./public/images/chicken.jpg",
+    "./public/images/iguana.jpg",
+    "./public/images/treetops.jpg"
   ];
 
 
