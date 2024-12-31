@@ -29,14 +29,14 @@ const Profile = () => {
 
   //media setup 1
   const videos: MediaType[] = [
-    "/videos/bird-video.mp4",
+    "/today-social-demo/videos/bird-video.mp4",
   ];
 
   const photos: MediaType[] = [
-    "/images/camera.jpg",
-    "/images/explore.jpg",
-    "/images/kitesurfing.jpg",
-    "/images/road.jpg"
+    "/today-social-demo/images/camera.jpg",
+    "/today-social-demo/images/explore.jpg",
+    "/today-social-demo/images/kitesurfing.jpg",
+    "/today-social-demo/images/road.jpg"
   ];
 
   return (

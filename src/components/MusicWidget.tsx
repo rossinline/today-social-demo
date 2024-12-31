@@ -13,7 +13,7 @@ const MusicWidget = () => {
       <div className="flex items-center space-x-4 px-4">
         {/* Album Cover */}
         <img
-          src="/images/EdSheeran-AlbumCover.png"
+          src="/today-social-demo/images/EdSheeran-AlbumCover.png"
           alt="Album Cover"
           className="w-15 h-10 object-cover rounded-lg shadow-lg ring-white/30 ring-8"
         />

@@ -29,30 +29,30 @@ const Home = () => {
 
   // Media setup 1
   const videos: MediaType[] = [
-    "/videos/cliff-video.mp4",
-    "/videos/butterfly-video.mp4",
-    "/videos/sky-video.mp4"
+    "/today-social-demo/videos/cliff-video.mp4",
+    "/today-social-demo/videos/butterfly-video.mp4",
+    "/today-social-demo/videos/sky-video.mp4"
   ];
 
   const photos: MediaType[] = [
-    "/images/geese.jpg",
-    "/images/road2.jpg",
-    "/images/cat.jpg",
-    "/images/vw-bus.jpg",
-    "/images/sunset.jpg",
-    "/images/trees.jpg"
+    "/today-social-demo/images/geese.jpg",
+    "/today-social-demo/images/road2.jpg",
+    "/today-social-demo/images/cat.jpg",
+    "/today-social-demo/images/vw-bus.jpg",
+    "/today-social-demo/images/sunset.jpg",
+    "/today-social-demo/images/trees.jpg"
   ];
 
   // Media setup 2
   const videos1: MediaType[] = [
-    "/videos/chicken-video.mp4",
+    "/today-social-demo/videos/chicken-video.mp4",
   ];
 
   const photos1: MediaType[] = [
-    "/images/forest.jpg",
-    "/images/chicken.jpg",
-    "/images/iguana.jpg",
-    "/images/treetops.jpg"
+    "/today-social-demo/images/forest.jpg",
+    "/today-social-demo/images/chicken.jpg",
+    "/today-social-demo/images/iguana.jpg",
+    "/today-social-demo/images/treetops.jpg"
   ];
 
 
