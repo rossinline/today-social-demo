@@ -54,13 +54,13 @@ const TodayForm = () => {
   return (
     <div className={`min-h-screen p-4 lg:px-20 flex justify-center items-center flex-col space-y-6 bg-gradient-to-br ${selectedColor}`}>
       {/* Logo */}
-      <div className="w-20 h-20  hover:cursor-pointer bg-white/30 rounded-widget ring-1 ring-black/5 mb-2 flex items-center justify-center shadow-lg">
+      <div className="w-20 h-20  hover:cursor-pointer bg-white/30 rounded-widget ring-1 ring-black/5 mb-2 flex items-center justify-center">
         <span className="text-gray1 font-bold text-xl">Today</span>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4">
-      <div className="bg-white/30 rounded-widget shadow-lg ring-1 ring-black/5">
-      <div className="mb-2 flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 shadow-lg ring-1 ring-black/5 rounded-t-widget px-4 py-1">
+      <div className="bg-white/30 rounded-widget ring-1 ring-black/5">
+      <div className="mb-2 flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 ring-1 ring-black/5 rounded-t-widget px-4 py-1">
       <h2 className="text-md font-semibold text-red-800">Visiters Read me</h2>
       <FileQuestion size={20} className="text-red-800" />
         
@@ -101,7 +101,7 @@ const TodayForm = () => {
             <button
         type="button"
         onClick={handleNavigateToHome}
-        className="w-full px-6 py-2 bg-gradient-to-br from-slate-50 to-gray-500/30 shadow-lg ring-1 ring-black/5 rounded-lg text-lg hover:bg-hovergray hover:ring-2 hover:ring-hovergray transition duration-300"
+        className="w-full px-6 py-2 bg-gradient-to-br from-slate-50 to-gray-500/30 ring-1 ring-black/5 rounded-lg text-lg hover:bg-hovergray hover:ring-2 hover:ring-hovergray transition duration-300"
       >
         Go to Today Home
       </button>
@@ -110,8 +110,8 @@ const TodayForm = () => {
 
       </div>
     
-      <div className="bg-white/30 rounded-widget shadow-lg ring-1 ring-black/5">
-        <div className="mb-2 flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 shadow-lg ring-1 ring-black/5 rounded-t-widget px-4 py-1">
+      <div className="bg-white/30 rounded-widget ring-1 ring-black/5">
+        <div className="mb-2 flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 ring-1 ring-black/5 rounded-t-widget px-4 py-1">
           <h2 className="text-lg font-semibold text-text1">Today's Journal - <i className="text-sm">Demo read only</i></h2>
           <BookOpen size={20} className="text-gray1" />
         </div>
@@ -215,7 +215,7 @@ const TodayForm = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full px-6 py-2 bg-gradient-to-br from-slate-50 to-gray-500/30 shadow-lg ring-1 ring-black/5 rounded-lg text-lg hover:bg-hovergray hover:ring-2 hover:ring-hovergray transition duration-300"
+            className="w-full px-6 py-2 bg-gradient-to-br from-slate-50 to-gray-500/30 ring-1 ring-black/5 rounded-lg text-lg hover:bg-hovergray hover:ring-2 hover:ring-hovergray transition duration-300"
             disabled >
             Submit Today
           </button>

@@ -3,7 +3,7 @@ import MusicWidget from "./MusicWidget";
 
 const ProfileWidget = () => {
   return (
-    <div className="bg-white/30 rounded-widget shadow-lg ring-1 ring-black/5 p-4 flex flex-col items-center space-y-4 h-full">
+    <div className="bg-white/30 rounded-widget ring-1 ring-black/5 p-4 flex flex-col items-center space-y-4 h-full">
       {/* Profile Picture */}
       <img
         src="/today-social-demo/images/profile-photo.jpg"
@@ -12,7 +12,7 @@ const ProfileWidget = () => {
       />
 
       {/* Follow Button */}
-      <button className="flex items-center justify-center over:cursor-pointer rounded-full shadow-lg ring-1 ring-black/5 hover:bg-hovergray hover:ring-2 hover:ring-hovergray transition duration-300 hover:text-white" aria-label="Follow Profile" title="Follow Profile">
+      <button className="flex items-center justify-center over:cursor-pointer rounded-full ring-1 ring-black/5 hover:bg-hovergray hover:ring-2 hover:ring-hovergray transition duration-300 hover:text-white" aria-label="Follow Profile" title="Follow Profile">
         <CirclePlus size={25} />
       </button>
 

@@ -10,9 +10,9 @@ interface WidgetProps {
 
 const ServiceWidget = ({ description, user, title, serviceName, staffName }: WidgetProps) => {
   return (
-    <div className="bg-white/30 rounded-widget shadow-lg ring-1 ring-black/5">
+    <div className="bg-white/30 rounded-widget ring-1 ring-black/5">
       {/* Title Section */}
-      <div className="mb-2 flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 shadow-lg ring-1 ring-black/5 rounded-t-widget px-4 py-1" aria-label="Service Widget" title="Service Widget">
+      <div className="mb-2 flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 ring-1 ring-black/5 rounded-t-widget px-4 py-1" aria-label="Service Widget" title="Service Widget">
         <h2 className="text-md font-semibold text-text1">Service Today - <i className="cursor-pointer hover:opacity-50">{user}</i></h2>
         <Star size={20} className="text-yellow-400" />
       </div>

@@ -2,7 +2,7 @@ import { GalleryVerticalEnd, HeartHandshake, Images, Lightbulb, MapPin, Star } f
 
 const HomeHeader = ({ onFilterChange }: { onFilterChange: (filter: string) => void }) => {
   return (
-    <div className="flex items-center justify-between space-x-4 h-20 p-4 bg-white/30 rounded-widget ring-1 ring-black/5 shadow-lg ">
+    <div className="flex items-center justify-between space-x-4 h-20 p-4 bg-white/30 rounded-widget ring-1 ring-black/5">
       {/* Filter buttons area */}
       <div className="flex space-x-4 justify-center flex-grow">
         <button

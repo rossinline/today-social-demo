@@ -13,9 +13,9 @@ interface WidgetProps {
 
 const PeopleWidget = ({ content, content1, content2, person, person1, person2, user }: WidgetProps) => {
   return (
-    <div className="bg-white/30 rounded-widget shadow-lg ring-1 ring-black/5">
+    <div className="bg-white/30 rounded-widget ring-1 ring-black/5">
       {/* Title Section */}
-      <div className="flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 shadow-lg ring-1 ring-black/5 rounded-t-widget px-4 py-1 mb-2" aria-label="People Widget" title="People Widget">
+      <div className="flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 ring-1 ring-black/5 rounded-t-widget px-4 py-1 mb-2" aria-label="People Widget" title="People Widget">
         <h2 className="text-md font-semibold text-text1">People Today - <i className="cursor-pointer hover:opacity-50">{user}</i></h2>
         <HeartHandshake size={20} className="text-blue-500" />
       </div>

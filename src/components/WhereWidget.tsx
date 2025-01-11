@@ -10,9 +10,9 @@ interface WidgetProps {
 const WhereWidget = ({ description, user, title, location }: WidgetProps) => {
 
   return (
-    <div className="bg-white/30 rounded-widget shadow-lg ring-1 ring-black/5" aria-label="Where Widget" title="Where Widget">
+    <div className="bg-white/30 rounded-widget ring-1 ring-black/5" aria-label="Where Widget" title="Where Widget">
       {/* Title Section */}
-      <div className="flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 shadow-lg ring-1 ring-black/5 rounded-t-widget px-4 py-1 mb-2">
+      <div className="flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 ring-1 ring-black/5 rounded-t-widget px-4 py-1 mb-2">
         <h2 className="text-md font-semibold text-text1">Where Today - <i className="cursor-pointer hover:opacity-50">{user}</i></h2>
         <MapPin size={20} className="text-red-500" />
       </div>

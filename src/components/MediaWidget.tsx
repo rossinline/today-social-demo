@@ -62,9 +62,9 @@ const MediaWidget = ({ videos = [], photos = [], user }: MediaWidgetProps) => {
   }, [mediaToDisplay]);
 
   return (
-    <div className="bg-gradient-to-br from-slate-50/30 to-slate-900/30 rounded-widget shadow-lg h-full flex flex-col justify-between">
+    <div className="bg-gradient-to-br from-slate-50/30 to-slate-900/30 rounded-widget h-full flex flex-col justify-between">
       {/* Tab Buttons */}
-      <div className="flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 shadow-lg ring-1 ring-black/5 rounded-t-widget px-4 py-1" aria-label="Media Widget" title="Media Widget">
+      <div className="flex items-center justify-between bg-gradient-to-br from-slate-50 to-gray-500/30 ring-1 ring-black/5 rounded-t-widget px-4 py-1" aria-label="Media Widget" title="Media Widget">
         <h2 className="text-md font-semibold text-text1">Media Today - <i className="cursor-pointer hover:opacity-50">{user}</i></h2>
         <div className="flex space-x-2">
           <button

@@ -3,7 +3,7 @@ import { PencilLine } from "lucide-react";
 const ProfilePersonalHeader = () => {
 
   return (
-<div className="flex flex-col space-y-4 h-20 w-auto p-4 bg-white/30 rounded-widget ring-1 ring-black/5 shadow-lg">
+<div className="flex flex-col space-y-4 h-20 w-auto p-4 bg-white/30 rounded-widget ring-1 ring-black/5">
   {/* Description */}
   <div className="flex items-center justify-between h-full">
     <div className="flex flex-col">
